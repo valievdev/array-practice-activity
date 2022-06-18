@@ -1,5 +1,12 @@
 import { expect, test } from 'vitest';
-import { bananaCount, filteredFruits, fourFruit, fruits, uppercaseFruits } from '../index';
+import { 
+	bananaCount,
+	filteredFruits,
+	fourFruit,
+	tenFruit,
+	fruits,
+	uppercaseFruits
+} from '../index';
 
 test('filteredFruits does not contain bananas', () => {
 	expect(
@@ -25,7 +32,7 @@ test('fourFruit gives the first fruit with a length of 4', () => {
 });
 
 test('tenFruit gives the index of the first fruit with a length of 10', () => {
-	expect(tenFruit?.length).toBe(10);
+	expect(tenFruit).toBe(4);
 });
 
 test('fruits should be sorted alphabetically', () => {

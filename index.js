@@ -14,7 +14,7 @@ const fruits = [
 // ^ DO NOT EDIT THE ABOVE ^
 
 // change this to store the filtered fruits as mentioned in README
-const filteredFruits = fruits; 
+const filteredFruits = fruits;
 
 // change this store all fruits uppercase using .map()
 const uppercaseFruits = fruits;
@@ -26,11 +26,12 @@ const bananaCount = 0;
 const fourFruit = 'apple';
 
 // change this to use findIndex to find the index of the fruit with a length of 10
-const tenFruit = 0;
+const tenFruit = 18;
 
 /*
 Sort the list of fruits here
 */ 
+
 
 
 /*
